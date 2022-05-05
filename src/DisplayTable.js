@@ -52,7 +52,7 @@ const useQuery = (page, pageSize,queryTable) => {
       if (!active) {
         return;
       }
-      const res = await axios.get(`http://localhost:3000/${queryTable}?_page=${page+1}&_limit=${pageSize}`);
+      const res = await axios.get(`http://localhost:5000/${queryTable}?_page=${page+1}&_limit=${pageSize}`);
       setData(res.data);
       setIsLoading(false);
       setRowCount(parseInt(res.headers["x-total-count"]));
