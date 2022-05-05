@@ -21,7 +21,10 @@ npm start
 Which would start the server on [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Images
-
-<img width="1440" alt="Screenshot 2022-05-06 at 1 13 42 AM" src="https://user-images.githubusercontent.com/56587515/167013757-49046b51-22c1-4016-8184-7755dc316cda.png">
+* The initial or the landing page will look like this.
+<img width="1440" alt="Screenshot 2022-05-06 at 1 13 42 AM" src="https://user-images.githubusercontent.
+com/56587515/167013757-49046b51-22c1-4016-8184-7755dc316cda.png">
+* Once the user selects a query from the drop-down, the results get's fetched from the backend and displayed to the user
 <img width="1440" alt="Screenshot 2022-05-06 at 1 14 10 AM" src="https://user-images.githubusercontent.com/56587515/167013772-518a504e-4643-4772-a518-8ece9bba982c.png">
+* There is also a playground where the users can type in some queries and get the data displayed.
 <img width="1440" alt="Screenshot 2022-05-06 at 1 14 53 AM" src="https://user-images.githubusercontent.com/56587515/167013792-bed421d7-651f-4a78-82d8-3818985304d2.png">
