@@ -1,3 +1,26 @@
+# [Querynator](https://querynator.netlify.app/)
+
+It's a mini implementation of how the query's results are shown to the users in an efficient way.
+
+## Frameworks/packages
+
+* This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* For UI, I have used [Material UI](https://mui.com).
+* Stub :- [Querynator-backend API](https://github.com/Dhirajkumar55/atlan-querynator-backend) deployed on [Heroku](https://www.heroku.com/) using [json-server](https://www.npmjs.com/package/json-server).
+
+## Usage
+
+Use the node package manager [npm](https://www.npmjs.com/) to install all the dependencies.
+```bash
+npm install 
+```
+To Run the app in the development mode.
+```bash
+npm start
+```
+Which would start the server on [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
