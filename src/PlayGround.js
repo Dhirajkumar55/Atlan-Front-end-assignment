@@ -15,8 +15,12 @@ export default function PlayGround(){
     const [queryTable,setQueryTable] = useState(null);
     const [error,setError] = useState(false);
 
+    function onlySpaces(str) {
+        return !(/^\s*$/.test(str));
+    }
+
     function handleClick(){
-        if(valueRef.current.value !== ''){
+        if(valueRef.current.value !== '' && onlySpaces(valueRef.current.value)){
             const tables = ['customers','orders', 'products'];
             setQueryTable(tables[Math.floor(Math.random()*tables.length)]);
         }

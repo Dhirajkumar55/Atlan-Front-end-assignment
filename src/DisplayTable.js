@@ -24,7 +24,7 @@ const orderHeaders = [
 ]
 
 const productHeaders = [
-  {field:"productID", width:50,headerClassName: 'super-app-theme--header'},
+  {field:"productID", width:150,headerClassName: 'super-app-theme--header'},
   {field:"name", width:300,headerClassName: 'super-app-theme--header'},
   {field:"supplierID", width:150,headerClassName: 'super-app-theme--header',},
   {field:"categoryID", width:250,headerClassName: 'super-app-theme--header'},
